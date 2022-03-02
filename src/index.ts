@@ -1,8 +1,10 @@
-//TS  is highly efficient
-/* const Main= require("./app/Main") */
 import { Main } from "./app/Main";
+import { defaultState } from "./defaultState";
 
-var msg:string = "TS is pretty amazing";
-console.log(msg);
+const renderApp=()=>{
 
-new Main().render();
+    const rendered: string= new Main(defaultState).render();
+    document.getElementById("App")!.innerHTML= rendered;
+}
+
+renderApp();

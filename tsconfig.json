@@ -3,9 +3,9 @@
     "compilerOptions": {
         
         "removeComments": false,
-        "lib": ["ES2018","DOM"]
+        "lib": ["ES2018","DOM"],
 
-       /*  "outFile":"app/index.js" */
+        /* "outFile":"app/index.js" */
 
     },
 
