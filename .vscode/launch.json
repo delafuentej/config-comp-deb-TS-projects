@@ -1,0 +1,18 @@
+{
+    "version":"0.2.0",
+    "configurations": [{
+
+
+
+        "type":"chrome",
+        "request": "launch",
+        "name": "open chrome debugger",
+        "url":"http://localhost:7777",
+        "webRoot": "${workspaceFolcer}",
+        "sourceMaps": true,
+        "trace":false,
+    }]
+
+
+
+}

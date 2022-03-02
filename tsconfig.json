@@ -4,6 +4,7 @@
         
         "removeComments": false,
         "lib": ["ES2018","DOM"],
+        "sourceMap":true
 
         /* "outFile":"app/index.js" */
 
